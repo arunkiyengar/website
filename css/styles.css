@@ -345,6 +345,7 @@ li.date {
   font-weight: 700;
   width: 80%;
   border: 1px solid var(--brown);
+  background: var(--lightbackground);
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
@@ -467,7 +468,7 @@ footer {
   }
 
   .sub-menu_link {
-    width: 30%;
+    width: 40%;
   }
 
   #to-top {
