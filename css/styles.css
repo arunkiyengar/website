@@ -213,16 +213,16 @@ li.nav_main_open {
   position: fixed;
   bottom: 20px;
   left: 50%;
-  margin-left: -150px;
-  padding-top: 10px;
-  width: 300px;
+  margin-left: -125px;
+  padding-top: 12px;
+  width: 250px;
   height: 50px;
   color: var(--green);
   background-color: var(--lightbackground);
   text-align: center;
   border-radius: 10px;
   display: none;
-  border: 1px solid var(--brown);
+  border: 1px solid var(--brown)
 }
 
 /* Main Section */
@@ -343,6 +343,7 @@ li.date {
   margin: 1em auto 2em;
   padding: 1em 2em;
   font-weight: 700;
+  width: 80%;
   border: 1px solid var(--brown);
   border-radius: 10px;
   text-decoration: none;
@@ -471,8 +472,8 @@ footer {
 
   #to-top {
     left: 50%;
-    margin-left: -100px;
-    width: 200px;
+    margin-left: -125px;
+    width: 250px;
     height: 45px;
   }
 }
