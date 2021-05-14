@@ -211,15 +211,15 @@ li.nav_main_open {
 
 #to-top {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   left: 50%;
-  margin-left: -100px;
-  width: 200px;
-  height: 30px;
+  margin-left: -150px;
+  padding-top: 14px;
+  width: 300px;
+  height: 50px;
   background-color: var(--lightbackground);
   text-align: center;
   border-radius: 10px;
-  color: var(--green);
   display: none;
   border: 1px solid var(--brown);
 }
@@ -338,9 +338,9 @@ li.date {
 }
 
 .sub-menu_link {
-  margin: 1em auto;
-  padding: .3em;
-  width: 45%;
+  display: block;
+  margin: 1em auto 2em;
+  padding: 1em 2em;
   font-weight: 700;
   border: 1px solid var(--brown);
   border-radius: 10px;
